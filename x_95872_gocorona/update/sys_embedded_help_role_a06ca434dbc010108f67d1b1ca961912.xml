@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_95872_gocorona.states_history_user" name="x_95872_gocorona.states_history_user">ac6ca434dbc010108f67d1b1ca96190d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 18:18:58</sys_created_on>
+        <sys_id>a06ca434dbc010108f67d1b1ca961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ac6ca434dbc010108f67d1b1ca96190d</sys_name>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_embedded_help_role_a06ca434dbc010108f67d1b1ca961912</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 18:18:58</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="state" label="State" language="en" table="x_95872_gocorona_states_history">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <help/>
+            <hint/>
+            <label>State</label>
+            <language>en</language>
+            <name>x_95872_gocorona_states_history</name>
+            <plural>States</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+            <sys_created_on>2020-04-05 18:19:00</sys_created_on>
+            <sys_id>4d6c2438db0410108f67d1b1ca961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>State</sys_name>
+            <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+            <sys_update_name>sys_documentation_x_95872_gocorona_states_history_state_en</sys_update_name>
+            <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+            <sys_updated_on>2020-04-05 18:19:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

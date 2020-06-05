@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Novel</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>COVID-19 [ Novel ]</qualified_name>
+        <rest_endpoint>http://corona.lmao.ninja/countries</rest_endpoint>
+        <rest_message display_value="COVID-19">bec6693bdb2fc0108f67d1b1ca961936</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-07 08:04:23</sys_created_on>
+        <sys_id>13c2f4dddb04d0108f67d1b1ca96191e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Novel</sys_name>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_rest_message_fn_13c2f4dddb04d0108f67d1b1ca96191e</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-08 03:40:47</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

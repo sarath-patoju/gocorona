@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Coronovirus</description>
+        <device_type>browser</device_type>
+        <hint>Coronovirus</hint>
+        <name/>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-03-21 09:43:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8276a537db2fc0108f67d1b1ca9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GoCorona</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_app_application_8276a537db2fc0108f67d1b1ca9619cd</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-03-21 09:43:08</sys_updated_on>
+        <title>GoCorona</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

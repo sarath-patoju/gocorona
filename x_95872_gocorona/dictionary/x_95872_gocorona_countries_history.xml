@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Countries History" max_length="40" name="x_95872_gocorona_countries_history" sizeclass="1492028" type="collection">
+        <element label="Active" max_length="40" name="active" type="integer"/>
+        <element label="Confirmed" max_length="40" name="confirmed" type="integer"/>
+        <element label="Country" max_length="32" name="country" reference="x_95872_gocorona_countries" type="reference"/>
+        <element label="Day" max_length="40" name="day" type="glide_date"/>
+        <element label="Deaths" max_length="40" name="deaths" type="integer"/>
+        <element label="Province" max_length="40" name="province" type="string"/>
+        <element label="Recovered" max_length="40" name="recovered" type="integer"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+    </element>
+</database>

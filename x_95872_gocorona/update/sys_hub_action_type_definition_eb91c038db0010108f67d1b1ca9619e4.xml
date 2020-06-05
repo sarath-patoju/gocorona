@@ -1,0 +1,3939 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>covid19_statewise</internal_name>
+        <label_cache>[{"name":"{{step[13baa659-eb56-4c7b-ba6a-36193715587a].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[13baa659-eb56-4c7b-ba6a-36193715587a].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].variable}}","label":"step➛Handle Response➛variable","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].response}}","label":"step➛Handle Response➛response","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].response_string}}","label":"step➛Handle Response➛response_string","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].total_states}}","label":"step➛Handle Response➛total_states","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].states_data}}","label":"step➛Handle Response➛states_data","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>fca276fcdb0050108f67d1b1ca961962</latest_snapshot>
+        <master_snapshot>2b424878db0010108f67d1b1ca961923</master_snapshot>
+        <name>Covid-19 Statewise</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:12:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>eb91c038db0010108f67d1b1ca9619e4</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Covid-19 Statewise</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_eb91c038db0010108f67d1b1ca9619e4</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb91c038db0010108f67d1b1ca9619e4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eb91c038db0010108f67d1b1ca9619e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>eb91c038db0010108f67d1b1ca9619e4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:27</sys_created_on>
+        <sys_id>1e71367cdb0050108f67d1b1ca961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:27</sys_updated_on>
+        <value/>
+        <variable display_value="">da71367cdb0050108f67d1b1ca961908</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>eb91c038db0010108f67d1b1ca9619e4</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:04:23</sys_created_on>
+        <sys_id>7b527ebcdb0050108f67d1b1ca961907</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:26</sys_updated_on>
+        <value/>
+        <variable display_value="">7b523ebcdb0050108f67d1b1ca9619f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eb91c038db0010108f67d1b1ca9619e4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>eb91c038db0010108f67d1b1ca9619e4</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:49</sys_created_on>
+        <sys_id>8f328478db0010108f67d1b1ca96199c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</table>
+        <value>{{step[39112438-c515-437e-b7f1-7524412a0784].response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_string</field>
+        <id>eb91c038db0010108f67d1b1ca9619e4</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:51:12</sys_created_on>
+        <sys_id>fe5faa78db0050108f67d1b1ca9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:51:12</sys_updated_on>
+        <table>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</table>
+        <value>{{step[39112438-c515-437e-b7f1-7524412a0784].response_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>states_data</field>
+        <id>eb91c038db0010108f67d1b1ca9619e4</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:04:23</sys_created_on>
+        <sys_id>f7527ebcdb0050108f67d1b1ca961907</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</table>
+        <value>{{step[39112438-c515-437e-b7f1-7524412a0784].states_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>total_states</field>
+        <id>eb91c038db0010108f67d1b1ca9619e4</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:27</sys_created_on>
+        <sys_id>9a71367cdb0050108f67d1b1ca961910</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</table>
+        <value>{{step[39112438-c515-437e-b7f1-7524412a0784].total_states}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=eb91c038db0010108f67d1b1ca9619e4^sys_idNOT IN72328478db0010108f67d1b1ca961931,9ceeae38db0050108f67d1b1ca96195f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</action>
+        <cid>13baa659-eb56-4c7b-ba6a-36193715587a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>72328478db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:07</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72328478db0010108f67d1b1ca961931"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:07</sys_created_on>
+        <sys_id>13420878db0010108f67d1b1ca9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:07</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>3a328478db0010108f67d1b1ca96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:14:48</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>be328478db0010108f67d1b1ca96197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:14:48</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>be328478db0010108f67d1b1ca96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:14:48</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:07</sys_created_on>
+        <sys_id>d3420878db0010108f67d1b1ca9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:07</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>fa328478db0010108f67d1b1ca96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:14:48</sys_updated_on>
+        <value>https://api.rootnet.in/covid19-in/unofficial/covid19india.org/statewise</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</action>
+        <cid>39112438-c515-437e-b7f1-7524412a0784</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Handle Response</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:07</sys_created_on>
+        <sys_id>9ceeae38db0050108f67d1b1ca96195f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:04:22</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9ceeae38db0050108f67d1b1ca96195f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9ceeae38db0050108f67d1b1ca96195f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>60eeae38db0050108f67d1b1ca96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9ceeae38db0050108f67d1b1ca96195f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>68eeae38db0050108f67d1b1ca96197c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:04:22</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+	if(inputs.status_code == '200'){
+      	outputs.response = JSON.parse(inputs.response_body)['data']['statewise'];
+      	outputs.total_states = outputs.response.length;
+      	outputs.response_string = JSON.stringify(outputs.response);
+      	outputs.states_data = outputs.response;
+    }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9ceeae38db0050108f67d1b1ca96195f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>9ceeae38db0050108f67d1b1ca96195f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>28eeae38db0050108f67d1b1ca96197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>9ceeae38db0050108f67d1b1ca96195f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>64eeae38db0050108f67d1b1ca96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9ceeae38db0050108f67d1b1ca96195f</table>
+        <value>{{step[13baa659-eb56-4c7b-ba6a-36193715587a].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>9ceeae38db0050108f67d1b1ca96195f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>eceeae38db0050108f67d1b1ca96197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>9ceeae38db0050108f67d1b1ca96195f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>28eeae38db0050108f67d1b1ca96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9ceeae38db0050108f67d1b1ca96195f</table>
+        <value>{{step[13baa659-eb56-4c7b-ba6a-36193715587a].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9ceeae38db0050108f67d1b1ca96195f^sys_idNOT IN20eeae38db0050108f67d1b1ca96196c,9ceeae38db0050108f67d1b1ca961963"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>20eeae38db0050108f67d1b1ca96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:07</sys_created_on>
+        <sys_id>9ceeae38db0050108f67d1b1ca961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9ceeae38db0050108f67d1b1ca96195f^sys_idNOT IN36117a3cdb0050108f67d1b1ca9619f2,eceeae38db0050108f67d1b1ca961970,f7523ebcdb0050108f67d1b1ca9619df,fe5faa78db0050108f67d1b1ca9619c6"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=a446d176-fb1f-44f0-9e1c-d508fde469a6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_states</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>total_states</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:58:50</sys_created_on>
+        <sys_id>36117a3cdb0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:58:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=3d2d469e-1e4f-4505-884f-929585aa426b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>response</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>eceeae38db0050108f67d1b1ca961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=states_data_child0,child_name=states_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=406f0cfa-cc17-49ce-ab5c-def7433b2ab1,co_type_name=FD73523ebcb6005010f968b0d51fdc10d7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=612d4b0b-e12d-452b-8a41-ef53fcc65a99</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>states_data</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>states_data</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:04:22</sys_created_on>
+        <sys_id>f7523ebcdb0050108f67d1b1ca9619df</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c86e1c0e-fba7-4b21-9ced-11bb7c455d17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_string</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:51:11</sys_created_on>
+        <sys_id>fe5faa78db0050108f67d1b1ca9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:51:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_output action="delete_multiple" query="model=eb91c038db0010108f67d1b1ca9619e4^sys_idNOT IN76328478db0010108f67d1b1ca961983,7b523ebcdb0050108f67d1b1ca9619f2,da71367cdb0050108f67d1b1ca961908,f65faa78db0050108f67d1b1ca9619d4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=a78003ca-41c5-4987-bd45-f942a9e3cc19</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Response</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</model>
+        <model_id>eb91c038db0010108f67d1b1ca9619e4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>76328478db0010108f67d1b1ca961983</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=states_data_child0,child_name=states_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=f7a4be95-3e22-4dd0-a253-714f911f786e,co_type_name=FD77523ebcd5005010239d23b4042b41eb,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=4c0873e4-2052-402d-903f-d9803fa427b3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>states_data</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>states_data</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</model>
+        <model_id>eb91c038db0010108f67d1b1ca9619e4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:04:23</sys_created_on>
+        <sys_id>7b523ebcdb0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=10b15fcb-ba3d-429a-a483-31c0af91e0cb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_states</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>total_states</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</model>
+        <model_id>eb91c038db0010108f67d1b1ca9619e4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:27</sys_created_on>
+        <sys_id>da71367cdb0050108f67d1b1ca961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=83998888-8c7d-4736-98c5-4cec6713cab5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_string</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response String</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</model>
+        <model_id>eb91c038db0010108f67d1b1ca9619e4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:51:12</sys_created_on>
+        <sys_id>f65faa78db0050108f67d1b1ca9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:51:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=eb91c038db0010108f67d1b1ca9619e4^sys_idNOT IN72328478db0010108f67d1b1ca961931,9ceeae38db0050108f67d1b1ca96195f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</action>
+        <cid>13baa659-eb56-4c7b-ba6a-36193715587a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>72328478db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:07</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72328478db0010108f67d1b1ca961931"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:07</sys_created_on>
+        <sys_id>13420878db0010108f67d1b1ca9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:07</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>3a328478db0010108f67d1b1ca96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:14:48</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>be328478db0010108f67d1b1ca96197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:14:48</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>be328478db0010108f67d1b1ca96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:14:48</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:07</sys_created_on>
+        <sys_id>d3420878db0010108f67d1b1ca9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:07</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>72328478db0010108f67d1b1ca961931</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:48</sys_created_on>
+        <sys_id>fa328478db0010108f67d1b1ca96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:14:48</sys_updated_on>
+        <value>https://api.rootnet.in/covid19-in/unofficial/covid19india.org/statewise</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</action>
+        <cid>39112438-c515-437e-b7f1-7524412a0784</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Handle Response</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:07</sys_created_on>
+        <sys_id>9ceeae38db0050108f67d1b1ca96195f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:04:22</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9ceeae38db0050108f67d1b1ca96195f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9ceeae38db0050108f67d1b1ca96195f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>60eeae38db0050108f67d1b1ca96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9ceeae38db0050108f67d1b1ca96195f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>68eeae38db0050108f67d1b1ca96197c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:04:22</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+	if(inputs.status_code == '200'){
+      	outputs.response = JSON.parse(inputs.response_body)['data']['statewise'];
+      	outputs.total_states = outputs.response.length;
+      	outputs.response_string = JSON.stringify(outputs.response);
+      	outputs.states_data = outputs.response;
+    }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9ceeae38db0050108f67d1b1ca96195f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>9ceeae38db0050108f67d1b1ca96195f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>28eeae38db0050108f67d1b1ca96197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>9ceeae38db0050108f67d1b1ca96195f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>64eeae38db0050108f67d1b1ca96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9ceeae38db0050108f67d1b1ca96195f</table>
+        <value>{{step[13baa659-eb56-4c7b-ba6a-36193715587a].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>9ceeae38db0050108f67d1b1ca96195f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>eceeae38db0050108f67d1b1ca96197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>9ceeae38db0050108f67d1b1ca96195f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>28eeae38db0050108f67d1b1ca96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9ceeae38db0050108f67d1b1ca96195f</table>
+        <value>{{step[13baa659-eb56-4c7b-ba6a-36193715587a].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9ceeae38db0050108f67d1b1ca96195f^sys_idNOT IN20eeae38db0050108f67d1b1ca96196c,9ceeae38db0050108f67d1b1ca961963"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>20eeae38db0050108f67d1b1ca96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:07</sys_created_on>
+        <sys_id>9ceeae38db0050108f67d1b1ca961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9ceeae38db0050108f67d1b1ca96195f^sys_idNOT IN36117a3cdb0050108f67d1b1ca9619f2,eceeae38db0050108f67d1b1ca961970,f7523ebcdb0050108f67d1b1ca9619df,fe5faa78db0050108f67d1b1ca9619c6"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=a446d176-fb1f-44f0-9e1c-d508fde469a6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_states</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>total_states</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:58:50</sys_created_on>
+        <sys_id>36117a3cdb0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:58:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=3d2d469e-1e4f-4505-884f-929585aa426b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>response</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:49:08</sys_created_on>
+        <sys_id>eceeae38db0050108f67d1b1ca961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:49:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=states_data_child0,child_name=states_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=406f0cfa-cc17-49ce-ab5c-def7433b2ab1,co_type_name=FD73523ebcb6005010f968b0d51fdc10d7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=612d4b0b-e12d-452b-8a41-ef53fcc65a99</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>states_data</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>states_data</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:04:22</sys_created_on>
+        <sys_id>f7523ebcdb0050108f67d1b1ca9619df</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c86e1c0e-fba7-4b21-9ced-11bb7c455d17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_string</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">9ceeae38db0050108f67d1b1ca96195f</model>
+        <model_id>9ceeae38db0050108f67d1b1ca96195f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9ceeae38db0050108f67d1b1ca96195f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:51:11</sys_created_on>
+        <sys_id>fe5faa78db0050108f67d1b1ca9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:51:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4^sys_idNOT IN73527ebcdb0050108f67d1b1ca961904,9671367cdb0050108f67d1b1ca96190d,f25faa78db0050108f67d1b1ca9619d9,f6328478db0010108f67d1b1ca961995"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>states_data</element>
+        <help/>
+        <hint/>
+        <label>states_data</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:04:23</sys_created_on>
+        <sys_id>73527ebcdb0050108f67d1b1ca961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:04:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_states</element>
+        <help/>
+        <hint/>
+        <label>total_states</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:27</sys_created_on>
+        <sys_id>9671367cdb0050108f67d1b1ca96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response_string</element>
+        <help/>
+        <hint/>
+        <label>Response String</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:51:12</sys_created_on>
+        <sys_id>f25faa78db0050108f67d1b1ca9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:51:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>Response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_eb91c038db0010108f67d1b1ca9619e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:14:49</sys_created_on>
+        <sys_id>f6328478db0010108f67d1b1ca961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:14:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=eb91c038db0010108f67d1b1ca9619e4^sys_idNOT IN37424878db0010108f67d1b1ca9619ab"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"37424878db0010108f67d1b1ca9619ab","name":"plan"}}</plan>
+        <snapshot>fca276fcdb0050108f67d1b1ca961962</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>37424878db0010108f67d1b1ca9619ab</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:35</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>covid19_statewise</internal_name>
+        <label_cache>[{"name":"{{step[13baa659-eb56-4c7b-ba6a-36193715587a].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[13baa659-eb56-4c7b-ba6a-36193715587a].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].variable}}","label":"step➛Handle Response➛variable","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].response}}","label":"step➛Handle Response➛response","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].response_string}}","label":"step➛Handle Response➛response_string","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].total_states}}","label":"step➛Handle Response➛total_states","type":"step","ref":""},{"name":"{{step[39112438-c515-437e-b7f1-7524412a0784].states_data}}","label":"step➛Handle Response➛states_data","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Covid-19 Statewise</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Covid-19 Statewise">eb91c038db0010108f67d1b1ca9619e4</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2b424878db0010108f67d1b1ca961923</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b424878db0010108f67d1b1ca961923"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2b424878db0010108f67d1b1ca961923"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2b424878db0010108f67d1b1ca961923</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:45</sys_created_on>
+        <sys_id>2a81f67cdb0050108f67d1b1ca9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:45</sys_updated_on>
+        <value/>
+        <variable display_value="">e681f67cdb0050108f67d1b1ca9619c8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2b424878db0010108f67d1b1ca961923"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>2b424878db0010108f67d1b1ca961923</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>ab424878db0010108f67d1b1ca961972</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</table>
+        <value>{{step[39112438-c515-437e-b7f1-7524412a0784].response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_string</field>
+        <id>2b424878db0010108f67d1b1ca961923</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>b9df6ab8db0050108f67d1b1ca961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</table>
+        <value>{{step[39112438-c515-437e-b7f1-7524412a0784].response_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>states_data</field>
+        <id>2b424878db0010108f67d1b1ca961923</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:05:34</sys_created_on>
+        <sys_id>45a2b6fcdb0050108f67d1b1ca961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</table>
+        <value>{{step[39112438-c515-437e-b7f1-7524412a0784].states_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>total_states</field>
+        <id>2b424878db0010108f67d1b1ca961923</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:45</sys_created_on>
+        <sys_id>a681f67cdb0050108f67d1b1ca9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:45</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</table>
+        <value>{{step[39112438-c515-437e-b7f1-7524412a0784].total_states}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=2b424878db0010108f67d1b1ca961923^sys_idNOT IN2ddf2ab8db0050108f67d1b1ca9619ba,ef424878db0010108f67d1b1ca961924"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</action>
+        <cid>39112438-c515-437e-b7f1-7524412a0784</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Handle Response</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:18</sys_created_on>
+        <sys_id>2ddf2ab8db0050108f67d1b1ca9619ba</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2ddf2ab8db0050108f67d1b1ca9619ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ddf2ab8db0050108f67d1b1ca9619ba</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>3ddf2ab8db0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:33</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+	if(inputs.status_code == '200'){
+      	outputs.response = JSON.parse(inputs.response_body)['data']['statewise'];
+      	outputs.total_states = outputs.response.length;
+      	outputs.response_string = JSON.stringify(outputs.response);
+      	outputs.states_data = outputs.response;
+    }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ddf2ab8db0050108f67d1b1ca9619ba</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>79df2ab8db0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2ddf2ab8db0050108f67d1b1ca9619ba"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2ddf2ab8db0050108f67d1b1ca9619ba</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>35df2ab8db0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>2ddf2ab8db0050108f67d1b1ca9619ba</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>b5df2ab8db0050108f67d1b1ca9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2ddf2ab8db0050108f67d1b1ca9619ba</table>
+        <value>{{step[13baa659-eb56-4c7b-ba6a-36193715587a].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>2ddf2ab8db0050108f67d1b1ca9619ba</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>f5df2ab8db0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>2ddf2ab8db0050108f67d1b1ca9619ba</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>79df2ab8db0050108f67d1b1ca9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2ddf2ab8db0050108f67d1b1ca9619ba</table>
+        <value>{{step[13baa659-eb56-4c7b-ba6a-36193715587a].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2ddf2ab8db0050108f67d1b1ca9619ba^sys_idNOT INa5df2ab8db0050108f67d1b1ca9619bd,bddf2ab8db0050108f67d1b1ca9619c3"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status_code</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:18</sys_created_on>
+        <sys_id>a5df2ab8db0050108f67d1b1ca9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_body</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:18</sys_created_on>
+        <sys_id>bddf2ab8db0050108f67d1b1ca9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2ddf2ab8db0050108f67d1b1ca9619ba^sys_idNOT IN6a81f67cdb0050108f67d1b1ca9619b9,89a2b6fcdb0050108f67d1b1ca961947,b5df2ab8db0050108f67d1b1ca9619ca,fddf2ab8db0050108f67d1b1ca9619d0"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=a446d176-fb1f-44f0-9e1c-d508fde469a6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_states</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>total_states</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:44</sys_created_on>
+        <sys_id>6a81f67cdb0050108f67d1b1ca9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=states_data_child0,child_name=states_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=406f0cfa-cc17-49ce-ab5c-def7433b2ab1,co_type_name=FD49a2b6fc9a0050108cda1428ff9d4a40,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=612d4b0b-e12d-452b-8a41-ef53fcc65a99</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>states_data</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>states_data</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:05:33</sys_created_on>
+        <sys_id>89a2b6fcdb0050108f67d1b1ca961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=3d2d469e-1e4f-4505-884f-929585aa426b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>response</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>b5df2ab8db0050108f67d1b1ca9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c86e1c0e-fba7-4b21-9ced-11bb7c455d17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_string</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>fddf2ab8db0050108f67d1b1ca9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</action>
+        <cid>13baa659-eb56-4c7b-ba6a-36193715587a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>ef424878db0010108f67d1b1ca961924</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ef424878db0010108f67d1b1ca961924"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>2b424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>https://api.rootnet.in/covid19-in/unofficial/covid19india.org/statewise</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>67424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>a3424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>af424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>eb424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>ef424878db0010108f67d1b1ca961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_hub_action_output action="delete_multiple" query="model=2b424878db0010108f67d1b1ca961923^sys_idNOT IN23424878db0010108f67d1b1ca961935,75df2ab8db0050108f67d1b1ca9619fb,89a2b6fcdb0050108f67d1b1ca96195a,e681f67cdb0050108f67d1b1ca9619c8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=a78003ca-41c5-4987-bd45-f942a9e3cc19</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Response</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</model>
+        <model_id>2b424878db0010108f67d1b1ca961923</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>23424878db0010108f67d1b1ca961935</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=83998888-8c7d-4736-98c5-4cec6713cab5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_string</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response String</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</model>
+        <model_id>2b424878db0010108f67d1b1ca961923</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>75df2ab8db0050108f67d1b1ca9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=states_data_child0,child_name=states_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=f7a4be95-3e22-4dd0-a253-714f911f786e,co_type_name=FDc5a2b6fc67005010a95c42abd0ee6d53,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=4c0873e4-2052-402d-903f-d9803fa427b3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>states_data</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>states_data</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</model>
+        <model_id>2b424878db0010108f67d1b1ca961923</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:05:33</sys_created_on>
+        <sys_id>89a2b6fcdb0050108f67d1b1ca96195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=10b15fcb-ba3d-429a-a483-31c0af91e0cb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_states</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>total_states</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</model>
+        <model_id>2b424878db0010108f67d1b1ca961923</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:44</sys_created_on>
+        <sys_id>e681f67cdb0050108f67d1b1ca9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=2b424878db0010108f67d1b1ca961923^sys_idNOT IN2ddf2ab8db0050108f67d1b1ca9619ba,ef424878db0010108f67d1b1ca961924"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</action>
+        <cid>39112438-c515-437e-b7f1-7524412a0784</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Handle Response</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:18</sys_created_on>
+        <sys_id>2ddf2ab8db0050108f67d1b1ca9619ba</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2ddf2ab8db0050108f67d1b1ca9619ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ddf2ab8db0050108f67d1b1ca9619ba</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>3ddf2ab8db0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:33</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+	if(inputs.status_code == '200'){
+      	outputs.response = JSON.parse(inputs.response_body)['data']['statewise'];
+      	outputs.total_states = outputs.response.length;
+      	outputs.response_string = JSON.stringify(outputs.response);
+      	outputs.states_data = outputs.response;
+    }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ddf2ab8db0050108f67d1b1ca9619ba</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>79df2ab8db0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2ddf2ab8db0050108f67d1b1ca9619ba"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2ddf2ab8db0050108f67d1b1ca9619ba</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>35df2ab8db0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>2ddf2ab8db0050108f67d1b1ca9619ba</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>b5df2ab8db0050108f67d1b1ca9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2ddf2ab8db0050108f67d1b1ca9619ba</table>
+        <value>{{step[13baa659-eb56-4c7b-ba6a-36193715587a].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>2ddf2ab8db0050108f67d1b1ca9619ba</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>f5df2ab8db0050108f67d1b1ca9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>2ddf2ab8db0050108f67d1b1ca9619ba</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>79df2ab8db0050108f67d1b1ca9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2ddf2ab8db0050108f67d1b1ca9619ba</table>
+        <value>{{step[13baa659-eb56-4c7b-ba6a-36193715587a].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2ddf2ab8db0050108f67d1b1ca9619ba^sys_idNOT INa5df2ab8db0050108f67d1b1ca9619bd,bddf2ab8db0050108f67d1b1ca9619c3"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status_code</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:18</sys_created_on>
+        <sys_id>a5df2ab8db0050108f67d1b1ca9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_body</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:18</sys_created_on>
+        <sys_id>bddf2ab8db0050108f67d1b1ca9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2ddf2ab8db0050108f67d1b1ca9619ba^sys_idNOT IN6a81f67cdb0050108f67d1b1ca9619b9,89a2b6fcdb0050108f67d1b1ca961947,b5df2ab8db0050108f67d1b1ca9619ca,fddf2ab8db0050108f67d1b1ca9619d0"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=a446d176-fb1f-44f0-9e1c-d508fde469a6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_states</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>total_states</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:44</sys_created_on>
+        <sys_id>6a81f67cdb0050108f67d1b1ca9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=states_data_child0,child_name=states_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=406f0cfa-cc17-49ce-ab5c-def7433b2ab1,co_type_name=FD49a2b6fc9a0050108cda1428ff9d4a40,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=612d4b0b-e12d-452b-8a41-ef53fcc65a99</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>states_data</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>states_data</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:05:33</sys_created_on>
+        <sys_id>89a2b6fcdb0050108f67d1b1ca961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=3d2d469e-1e4f-4505-884f-929585aa426b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>response</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>b5df2ab8db0050108f67d1b1ca9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c86e1c0e-fba7-4b21-9ced-11bb7c455d17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_string</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Response">2ddf2ab8db0050108f67d1b1ca9619ba</model>
+        <model_id>2ddf2ab8db0050108f67d1b1ca9619ba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ddf2ab8db0050108f67d1b1ca9619ba</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>fddf2ab8db0050108f67d1b1ca9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</action>
+        <cid>13baa659-eb56-4c7b-ba6a-36193715587a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>ef424878db0010108f67d1b1ca961924</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ef424878db0010108f67d1b1ca961924"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>2b424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>https://api.rootnet.in/covid19-in/unofficial/covid19india.org/statewise</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>67424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>a3424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>af424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>eb424878db0010108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ef424878db0010108f67d1b1ca961924</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>ef424878db0010108f67d1b1ca961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923^sys_idNOT IN71df6ab8db0050108f67d1b1ca961900,a281f67cdb0050108f67d1b1ca9619cd,af424878db0010108f67d1b1ca961939,c9a2b6fcdb0050108f67d1b1ca96195f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response_string</element>
+        <help/>
+        <hint/>
+        <label>Response String</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:19</sys_created_on>
+        <sys_id>71df6ab8db0050108f67d1b1ca961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_states</element>
+        <help/>
+        <hint/>
+        <label>total_states</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:44</sys_created_on>
+        <sys_id>a281f67cdb0050108f67d1b1ca9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:00:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>Response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 15:15:08</sys_created_on>
+        <sys_id>af424878db0010108f67d1b1ca961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 15:15:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>states_data</element>
+        <help/>
+        <hint/>
+        <label>states_data</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2b424878db0010108f67d1b1ca961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:05:34</sys_created_on>
+        <sys_id>c9a2b6fcdb0050108f67d1b1ca96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:05:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

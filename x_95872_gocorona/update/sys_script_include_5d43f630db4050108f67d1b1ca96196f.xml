@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_95872_gocorona.GoCorona</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GoCorona</name>
+        <script><![CDATA[var GoCorona = Class.create();
+GoCorona.prototype = {
+    initialize: function() {
+    },
+
+	
+	getStatewise: function(){
+		try {
+			var r = new sn_ws.RESTMessageV2();
+			r.setEndpoint('https://api.rootnet.in/covid19-in/unofficial/covid19india.org/statewise');
+			r.setHttpMethod('get');
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			
+			return response;
+			
+		} catch (ex) {
+			var message = ex.message;
+		}
+	},
+	
+	updateStatewise: function(){
+		var response = this.getStatewise();
+		if(response.getStatusCode() == 200){
+			var statewise = JSON.parse(response.getBody()).data.statewise;
+			var dateTime = JSON.parse(response.getBody()).data.lastRefreshed;
+			
+			statewise.forEach(function (state){
+				
+				var stateTab = new GlideRecord('x_95872_gocorona_states');
+				stateTab.addQuery('name', state.state);
+				stateTab.query();
+				if(stateTab.next()){
+					stateTab.day = dateTime;
+					stateTab.confirmed = state.confirmed;
+					stateTab.active = state.active;
+					stateTab.death = state.deaths;
+					stateTab.recovered = state.recovered;
+					stateTab.update();		
+				}else{
+					stateTab.initialize();
+					stateTab.name = state.state;
+					stateTab.day = dateTime;
+					stateTab.confirmed = state.confirmed;
+					stateTab.active = state.active;
+					stateTab.death = state.deaths;
+					stateTab.recovered = state.recovered;
+					stateTab.insert();
+				}
+			});	
+		}else{
+			gs.error("Error while get method for getStatewise with status code "+response.getStatusCode());
+		}
+	},
+	
+	getStatewiseHistory: function(){
+		try {
+			var r = new sn_ws.RESTMessageV2();
+			r.setEndpoint('https://api.rootnet.in/covid19-in/unofficial/covid19india.org/statewise/history');
+			r.setHttpMethod('get');
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			
+			return response;
+			
+		} catch (ex) {
+			var message = ex.message;
+		}
+	},
+	
+	updateStatewiseHistory: function(){
+		var response = this.getStatewiseHistory();
+		if(response.getStatusCode() == 200){
+			var statewiseHistory = JSON.parse(response.getBody()).data.history;
+			var dateTime = JSON.parse(response.getBody()).data.lastRefreshed;
+			
+			statewiseHistory.forEach(function (day){
+				
+				var statewiseDayHistory = day.statewise;
+				
+				statewiseDayHistory.forEach(function (state){
+					
+					var stateHis = new GlideRecord('x_95872_gocorona_states_history');
+					stateHis.addQuery('day', day.day).addCondition('state', getState(state.state));
+					stateHis.query();
+					if(stateHis.next()){
+						stateHis.confirmed = state.confirmed;
+						stateHis.active = state.active;
+						stateHis.deaths = state.deaths;
+						stateHis.recovered = state.recovered;
+						stateHis.update();	
+					}else{
+						stateHis.initialize();
+						stateHis.state = getState(state.state);
+						stateHis.day = day.day;
+						stateHis.confirmed = state.confirmed;
+						stateHis.active = state.active;
+						stateHis.deaths = state.deaths;
+						stateHis.recovered = state.recovered;
+						stateHis.insert();	
+					}
+					
+					function getState(state){
+						var gr = new GlideRecord("x_95872_gocorona_states");
+						gr.addQuery("name", state);
+						gr.query();
+						if (gr.next()) {
+							return gr.getUniqueValue();
+						} else{
+							gr.initialize();
+							gr.name = state;
+							return gr.insert();
+						}
+					} // End of the Function
+				}); // End of Day Statewise
+			}); // End of Day
+		}else{
+			gs.error("Error while get method for getStatewiseHistory with status code "+response.getStatusCode());
+		}
+	},
+	
+	getCountrywise: function(){
+		try {
+			var r = new sn_ws.RESTMessageV2();
+			r.setEndpoint('https://corona.lmao.ninja/countries');
+			r.setHttpMethod('get');
+			r.setRequestHeader('User-Agent', 'Servicenow');
+			r.setQueryParameter('sort', 'country');
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			
+			return response;
+			
+		} catch (ex) {
+			var message = ex.message;
+		}
+	},
+	
+	updateCountrywise: function(){
+		var response = this.getCountrywise();
+		if(response.getStatusCode() == 200){
+			var countrywise = JSON.parse(response.getBody());
+			
+			countrywise.forEach(function (country){
+				
+				var countryTab = new GlideRecord('x_95872_gocorona_countries');
+				countryTab.addQuery('name', country.country);
+				countryTab.query();
+				if(countryTab.next()){
+					countryTab.confirmed = country.cases;
+					countryTab.active = country.active;
+					countryTab.deaths = country.deaths;
+					countryTab.recovered = country.recovered;
+					countryTab.alias = country.countryInfo.iso2;
+					countryTab.latitude = country.countryInfo.lat;
+					countryTab.longitude = country.countryInfo['long'];
+					countryTab.update();		
+				}else{
+					countryTab.initialize();
+					countryTab.name = country.country;
+					countryTab.confirmed = country.cases;
+					countryTab.active = country.active;
+					countryTab.deaths = country.deaths;
+					countryTab.recovered = country.recovered;
+					countryTab.alias = country.countryInfo.iso2;
+					countryTab.latitude = country.countryInfo.lat;
+					countryTab.longitude = country.countryInfo['long'];
+					countryTab.insert();
+				}
+			});	
+		}else{
+			gs.error("Error while get method for getCountrywise with status code "+response.getStatusCode());
+		}
+	},
+	
+	getCountrywiseHistory: function(){
+		try {
+			var r = new sn_ws.RESTMessageV2();
+			r.setEndpoint('https://corona.lmao.ninja/v2/historical');
+			r.setHttpMethod('get');
+			r.setRequestHeader('User-Agent', 'Servicenow');
+			r.setQueryParameter('lastdays', 'all');
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			
+			return response;
+			
+		} catch (ex) {
+			var message = ex.message;
+		}
+	},
+	
+	updateCountrywiseHistory: function(){
+		var response = this.getCountrywiseHistory();
+		if(response.getStatusCode() == 200){
+			var countrywiseHistory = JSON.parse(response.getBody());
+			
+			countrywiseHistory.forEach(function (country){
+				
+				var countrywiseDayHistory = Object.keys(country.timeline.cases);
+				
+				countrywiseDayHistory.forEach(function (day){
+
+					var countryHis = new GlideRecord('x_95872_gocorona_countries_history');
+					countryHis.addQuery('country', getCountry(country.country)).addCondition('day', day);
+					countryHis.query();
+					if(countryHis.next()){
+						countryHis.province = country.province;
+						countryHis.confirmed = country.timeline.cases[day];
+						countryHis.recovered = country.timeline.recovered[day];
+						countryHis.deaths = country.timeline.deaths[day];
+						countryHis.update();
+					}else{
+						countryHis.initialize();
+						countryHis.country = getCountry(country.country);
+						countryHis.province = country.province;
+						countryHis.day = day;
+						countryHis.confirmed = country.timeline.cases[day];
+						countryHis.recovered = country.timeline.recovered[day];
+						countryHis.deaths = country.timeline.deaths[day];
+						countryHis.insert();
+					}
+
+					function getCountry(country){
+						var gr = new GlideRecord("x_95872_gocorona_countries");
+						gr.addQuery("name", country);
+						gr.query();
+						if (gr.next()) {
+							return gr.getUniqueValue();
+						} else{
+							gr.initialize();
+							gr.name = country;
+							return gr.insert();
+						}
+					} // End of the Function
+				});
+			});
+			
+		}else{
+			gs.error("Error while get method for getCountrywiseHistory with status code "+response.getStatusCode());
+		}
+	},
+	
+	/////////////////////////////////////////////////////////////////// SCRIPTED REST API FUNCTIONS	///////////////////////////////////////////////////////////////////
+	
+	getStateData: function(type, state){
+		gs.info("Query for "+type+" cases in "+state);
+		var gr = new GlideRecord("x_95872_gocorona_states");
+		gr.addQuery("name", state);
+		gr.query();
+		if (gr.next()) {
+			if(type == 'deaths'){type = 'death';}
+			return gr.getValue(type);
+		}
+
+	},
+	
+	
+    type: 'GoCorona'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:18:45</sys_created_on>
+        <sys_id>5d43f630db4050108f67d1b1ca96196f</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>GoCorona</sys_name>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_script_include_5d43f630db4050108f67d1b1ca96196f</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-08 05:02:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

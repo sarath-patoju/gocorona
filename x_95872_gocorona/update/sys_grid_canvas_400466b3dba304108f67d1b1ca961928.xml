@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA GoCorona - New Tab">840466b3dba304108f67d1b1ca961926</legacy_page>
+        <name>PA GoCorona - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-03-21 14:11:58</sys_created_on>
+        <sys_id>400466b3dba304108f67d1b1ca961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA GoCorona - New Tab</sys_name>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_grid_canvas_400466b3dba304108f67d1b1ca961928</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-03-21 14:11:58</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-06-05 15:33:31">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-03-21 14:11:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>840466b3dba304108f67d1b1ca961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA GoCorona - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_portal_page_840466b3dba304108f67d1b1ca961926</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-03-21 14:11:58</sys_updated_on>
+        <title>PA GoCorona - New Tab</title>
+        <user/>
+        <view>pa_gocorona_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA GoCorona - New Tab">840466b3dba304108f67d1b1ca961926</page>
+                <summary>TotalAfftected</summary>
+                <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                <sys_created_on>2020-03-21 14:12:26</sys_created_on>
+                <sys_id>07146eb3dba304108f67d1b1ca9619fe</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                <sys_updated_on>2020-03-21 14:12:26</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:26</sys_created_on>
+                        <sys_id>03146eb3dba304108f67d1b1ca9619ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:26</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:26</sys_created_on>
+                        <sys_id>0b146eb3dba304108f67d1b1ca9619fe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:26</sys_updated_on>
+                        <value>cf716e7fdb6304108f67d1b1ca961979</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:26</sys_created_on>
+                        <sys_id>0f146eb3dba304108f67d1b1ca9619ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:26</sys_updated_on>
+                        <value>TotalAfftected</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:26</sys_created_on>
+                        <sys_id>4b146eb3dba304108f67d1b1ca9619ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:26</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:26</sys_created_on>
+                        <sys_id>4f146eb3dba304108f67d1b1ca9619fe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:26</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:26</sys_created_on>
+                        <sys_id>8314aeb3dba304108f67d1b1ca961900</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:26</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:26</sys_created_on>
+                        <sys_id>87146eb3dba304108f67d1b1ca9619ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:26</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:58</sys_created_on>
+                        <sys_id>b234eeb3dba304108f67d1b1ca9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:58</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:58</sys_created_on>
+                        <sys_id>b234eeb3dba304108f67d1b1ca9619b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:58</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:58</sys_created_on>
+                        <sys_id>b634eeb3dba304108f67d1b1ca9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:58</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:58</sys_created_on>
+                        <sys_id>b634eeb3dba304108f67d1b1ca9619b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:58</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:58</sys_created_on>
+                        <sys_id>ba34eeb3dba304108f67d1b1ca9619b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:58</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:58</sys_created_on>
+                        <sys_id>ba34eeb3dba304108f67d1b1ca9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:58</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:58</sys_created_on>
+                        <sys_id>be34eeb3dba304108f67d1b1ca9619b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:58</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:58</sys_created_on>
+                        <sys_id>be34eeb3dba304108f67d1b1ca9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:58</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:26">07146eb3dba304108f67d1b1ca9619fe</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:26</sys_created_on>
+                        <sys_id>c3146eb3dba304108f67d1b1ca9619ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:26</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA GoCorona - New Tab">840466b3dba304108f67d1b1ca961926</page>
+                <summary>TotalRecovered</summary>
+                <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                <sys_created_on>2020-03-21 14:12:37</sys_created_on>
+                <sys_id>2d24e273dba304108f67d1b1ca96196c</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                <sys_updated_on>2020-03-21 14:12:37</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:37</sys_created_on>
+                        <sys_id>2124e273dba304108f67d1b1ca96196d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:37</sys_updated_on>
+                        <value>45b1267fdb6304108f67d1b1ca961936</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:37</sys_created_on>
+                        <sys_id>2524e273dba304108f67d1b1ca96196e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:37</sys_updated_on>
+                        <value>TotalRecovered</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:37</sys_created_on>
+                        <sys_id>2924e273dba304108f67d1b1ca96196d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:37</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:37</sys_created_on>
+                        <sys_id>6124e273dba304108f67d1b1ca96196e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:37</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:37</sys_created_on>
+                        <sys_id>6524e273dba304108f67d1b1ca96196d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:37</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:52</sys_created_on>
+                        <sys_id>653466f3dba304108f67d1b1ca9619c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:52</sys_created_on>
+                        <sys_id>693466f3dba304108f67d1b1ca9619c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:52</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:52</sys_created_on>
+                        <sys_id>6d3466f3dba304108f67d1b1ca9619c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:52</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:37</sys_created_on>
+                        <sys_id>a924e273dba304108f67d1b1ca96196e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:37</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:37</sys_created_on>
+                        <sys_id>ad24e273dba304108f67d1b1ca96196d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:37</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:52</sys_created_on>
+                        <sys_id>d534ea73dba304108f67d1b1ca96190f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:52</sys_created_on>
+                        <sys_id>d934ea73dba304108f67d1b1ca96190f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:52</sys_created_on>
+                        <sys_id>e134ea73dba304108f67d1b1ca961910</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:52</sys_created_on>
+                        <sys_id>e534ea73dba304108f67d1b1ca961910</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:52</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:37</sys_created_on>
+                        <sys_id>e924e273dba304108f67d1b1ca96196d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:37</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:37">2d24e273dba304108f67d1b1ca96196c</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:52</sys_created_on>
+                        <sys_id>ed34ea73dba304108f67d1b1ca96190f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:52</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA GoCorona - New Tab">840466b3dba304108f67d1b1ca961926</page>
+                <summary>TotalDeaths</summary>
+                <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                <sys_created_on>2020-03-21 14:12:09</sys_created_on>
+                <sys_id>7a04ee73dba304108f67d1b1ca96199e</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                <sys_updated_on>2020-03-21 14:12:09</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:13:04</sys_created_on>
+                        <sys_id>104462f3dba304108f67d1b1ca961925</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:13:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:13:04</sys_created_on>
+                        <sys_id>104462f3dba304108f67d1b1ca961926</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:13:04</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:13:04</sys_created_on>
+                        <sys_id>144462f3dba304108f67d1b1ca961924</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:13:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:13:04</sys_created_on>
+                        <sys_id>144462f3dba304108f67d1b1ca961925</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:13:04</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:13:04</sys_created_on>
+                        <sys_id>184462f3dba304108f67d1b1ca961924</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:13:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:13:04</sys_created_on>
+                        <sys_id>184462f3dba304108f67d1b1ca961925</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:13:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:13:04</sys_created_on>
+                        <sys_id>1c4462f3dba304108f67d1b1ca961924</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:13:04</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:13:04</sys_created_on>
+                        <sys_id>1c4462f3dba304108f67d1b1ca961925</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:13:04</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:09</sys_created_on>
+                        <sys_id>3604ee73dba304108f67d1b1ca96199f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:09</sys_updated_on>
+                        <value>d64126bfdb6304108f67d1b1ca96199a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:09</sys_created_on>
+                        <sys_id>3a04ee73dba304108f67d1b1ca9619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:09</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:09</sys_created_on>
+                        <sys_id>7604ee73dba304108f67d1b1ca9619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:09</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:09</sys_created_on>
+                        <sys_id>b204ee73dba304108f67d1b1ca9619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:09</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:09</sys_created_on>
+                        <sys_id>ba04ee73dba304108f67d1b1ca9619a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:09</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:09</sys_created_on>
+                        <sys_id>be04ee73dba304108f67d1b1ca9619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:09</sys_updated_on>
+                        <value>TotalDeaths</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:09</sys_created_on>
+                        <sys_id>fa04ee73dba304108f67d1b1ca9619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:09</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 21-03-2020 19:42:09">7a04ee73dba304108f67d1b1ca96199e</portal_section>
+                        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+                        <sys_created_on>2020-03-21 14:12:09</sys_created_on>
+                        <sys_id>fe04ee73dba304108f67d1b1ca96199f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+                        <sys_updated_on>2020-03-21 14:12:09</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

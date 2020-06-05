@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Country Stats</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_95872_gocorona_country_stats</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-03-21 09:42:09</sys_created_on>
+        <sys_id>7b36e9f7db2fc0108f67d1b1ca961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gocorona Country Stats</sys_name>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_db_object_7b36e9f7db2fc0108f67d1b1ca961919</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-03-21 09:42:09</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</application>
+        <file_path/>
+        <instance_id>03445d77dbec370052cec5970596192a</instance_id>
+        <instance_name>dev79595</instance_name>
+        <name>sys_db_object_7b36e9f7db2fc0108f67d1b1ca961919</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Country Stats</label><live_feed_enabled>false</live_feed_enabled><name>x_95872_gocorona_country_stats</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>sarath.satya7@hotmail.com</sys_created_by><sys_created_on>2020-03-21 09:42:09</sys_created_on><sys_id>7b36e9f7db2fc0108f67d1b1ca961919</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gocorona Country Stats</sys_name><sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package><sys_policy/><sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope><sys_update_name>sys_db_object_7b36e9f7db2fc0108f67d1b1ca961919</sys_update_name><sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by><sys_updated_on>2020-03-21 09:42:09</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>385547076</payload_hash>
+        <record_name>Country Stats</record_name>
+        <reverted_from/>
+        <source>5064a937db2fc0108f67d1b1ca9619e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-03-21 09:42:10</sys_created_on>
+        <sys_id>8446e9f7db2fc0108f67d1b1ca96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170fc78a8570000001</sys_recorded_at>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-03-21 09:42:10</sys_updated_on>
+        <type>Table</type>
+        <update_guid>0046e9f7512fc0107ac82d2400c3c66e</update_guid>
+        <update_guid_history>0046e9f7512fc0107ac82d2400c3c66e:385547076</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-07 05:42:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>59bc550075434460911cf45323466f71</sys_id>
+        <sys_metadata>7b36e9f7db2fc0108f67d1b1ca961919</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Country Stats</sys_name>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_scope_delete display_value="">3b8f3a209ce148be99f6da25686c4419</sys_scope_delete>
+        <sys_update_name>sys_db_object_7b36e9f7db2fc0108f67d1b1ca961919</sys_update_name>
+        <sys_update_version display_value="sys_db_object_7b36e9f7db2fc0108f67d1b1ca961919">8446e9f7db2fc0108f67d1b1ca96196e</sys_update_version>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-07 05:42:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

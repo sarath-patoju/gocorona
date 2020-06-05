@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="States History" max_length="40" name="x_95872_gocorona_states_history" sizeclass="3070" type="collection">
+        <element label="Active" max_length="40" name="active" type="integer"/>
+        <element label="Confirmed" max_length="40" name="confirmed" type="integer"/>
+        <element label="Day" max_length="40" name="day" type="glide_date"/>
+        <element label="Deaths" max_length="40" name="deaths" type="integer"/>
+        <element label="Recovered" max_length="40" name="recovered" type="integer"/>
+        <element label="State" max_length="32" name="state" reference="x_95872_gocorona_states" type="reference"/>
+        <index name="index">
+            <element name="state"/>
+        </index>
+    </element>
+</database>

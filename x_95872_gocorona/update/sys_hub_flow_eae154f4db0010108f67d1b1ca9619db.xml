@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>covid19_getdatastatewise</internal_name>
+        <label_cache>[{"name":"3a270c0f-97bb-40c7-b22a-cc6fe6787a47.item","label":"3➛states_data_child0","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"bf89a9f6-ee78-4c39-a689-e76f0d9ea500.response_string","label":"1➛Response String","reference_display":"Response String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"83998888-8c7d-4736-98c5-4cec6713cab5"}},{"name":"b883eeb3-cb08-466d-8fca-e30ad1aea7f7.response","label":"1➛Response","reference_display":"Response","type":"json","base_type":"json","attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"9ae4371a-93db-42c1-b5ca-5b3d56fb2fa1"}},{"name":"bf89a9f6-ee78-4c39-a689-e76f0d9ea500.response","label":"1➛Response","reference_display":"Response","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a78003ca-41c5-4987-bd45-f942a9e3cc19"}},{"name":"bf89a9f6-ee78-4c39-a689-e76f0d9ea500.states_data","label":"1➛states_data","reference_display":"states_data","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDc5a2b6fc67005010a95c42abd0ee6d53","child_label":"states_data_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"states_data_child0","child_uiUniqueId":"f7a4be95-3e22-4dd0-a253-714f911f786e","uiUniqueId":"4c0873e4-2052-402d-903f-d9803fa427b3"}},{"name":"bf89a9f6-ee78-4c39-a689-e76f0d9ea500.total_states","label":"1➛total_states","reference_display":"total_states","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"10b15fcb-ba3d-429a-a483-31c0af91e0cb"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>COVID-19 getDataStatewise</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 16:23:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>eae154f4db0010108f67d1b1ca9619db</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>COVID-19 getDataStatewise</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_hub_flow_eae154f4db0010108f67d1b1ca9619db</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=eae154f4db0010108f67d1b1ca9619db"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eae154f4db0010108f67d1b1ca9619db"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=eae154f4db0010108f67d1b1ca9619db^sys_idNOT IN64efaab8db0050108f67d1b1ca96196d,7991367cdb0050108f67d1b1ca9619d0,80d2fafcdb0050108f67d1b1ca96192a,e0efaab8db0050108f67d1b1ca96196f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="COVID-19 getDataStatewise">eae154f4db0010108f67d1b1ca9619db</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:30</sys_created_on>
+        <sys_id>64efaab8db0050108f67d1b1ca96196d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <ui_id>bf89a9f6-ee78-4c39-a689-e76f0d9ea500</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=64efaab8db0050108f67d1b1ca96196d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3d91367cdb0050108f67d1b1ca9619cf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="COVID-19 getDataStatewise">eae154f4db0010108f67d1b1ca9619db</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:58</sys_created_on>
+        <sys_id>7991367cdb0050108f67d1b1ca9619d0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <ui_id>3a270c0f-97bb-40c7-b22a-cc6fe6787a47</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7991367cdb0050108f67d1b1ca9619d0"/>
+    <sys_element_mapping action="delete_multiple" query="id=7991367cdb0050108f67d1b1ca9619d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>7991367cdb0050108f67d1b1ca9619d0</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:06:18</sys_created_on>
+        <sys_id>84d2fafcdb0050108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{bf89a9f6-ee78-4c39-a689-e76f0d9ea500.states_data}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="COVID-19 getDataStatewise">eae154f4db0010108f67d1b1ca9619db</flow>
+        <order>3.1</order>
+        <parent_ui_id>3a270c0f-97bb-40c7-b22a-cc6fe6787a47</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:06:18</sys_created_on>
+        <sys_id>80d2fafcdb0050108f67d1b1ca96192a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <ui_id>4ce1a75e-3779-4fdc-8eea-0ae292b006eb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=80d2fafcdb0050108f67d1b1ca96192a"/>
+    <sys_element_mapping action="delete_multiple" query="id=80d2fafcdb0050108f67d1b1ca96192a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>80d2fafcdb0050108f67d1b1ca96192a</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:06:18</sys_created_on>
+        <sys_id>48d2fafcdb0050108f67d1b1ca96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{3a270c0f-97bb-40c7-b22a-cc6fe6787a47.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="COVID-19 getDataStatewise">eae154f4db0010108f67d1b1ca9619db</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:30</sys_created_on>
+        <sys_id>e0efaab8db0050108f67d1b1ca96196f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <ui_id>1c24d246-7a99-4a23-8218-701f6a4aa4ef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e0efaab8db0050108f67d1b1ca96196f"/>
+    <sys_element_mapping action="delete_multiple" query="id=e0efaab8db0050108f67d1b1ca96196f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>e0efaab8db0050108f67d1b1ca96196f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:30</sys_created_on>
+        <sys_id>a0efaab8db0050108f67d1b1ca961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{bf89a9f6-ee78-4c39-a689-e76f0d9ea500.response}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=eae154f4db0010108f67d1b1ca9619db^sys_idNOT INa8efaab8db0050108f67d1b1ca96196a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="COVID-19 getDataStatewise">eae154f4db0010108f67d1b1ca9619db</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:30</sys_created_on>
+        <sys_id>a8efaab8db0050108f67d1b1ca96196a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a8efaab8db0050108f67d1b1ca96196a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a8efaab8db0050108f67d1b1ca96196a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:30</sys_created_on>
+        <sys_id>20efaab8db0050108f67d1b1ca96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:30</sys_updated_on>
+        <value>2020-04-06 09:00:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=eae154f4db0010108f67d1b1ca9619db^sys_idNOT IN26e1d830db8010108f67d1b1ca961997"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>eae154f4db0010108f67d1b1ca9619db</id>
+        <name>COVID-19 getDataStatewise</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-05 16:23:20</sys_created_on>
+        <sys_id>26e1d830db8010108f67d1b1ca961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-05 16:23:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=eae154f4db0010108f67d1b1ca9619db^sys_idNOT IN64efaab8db0050108f67d1b1ca96196d,80d2fafcdb0050108f67d1b1ca96192a,e0efaab8db0050108f67d1b1ca96196f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Covid-19 Statewise">2b424878db0010108f67d1b1ca961923</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="COVID-19 getDataStatewise">eae154f4db0010108f67d1b1ca9619db</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:30</sys_created_on>
+        <sys_id>64efaab8db0050108f67d1b1ca96196d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <ui_id>bf89a9f6-ee78-4c39-a689-e76f0d9ea500</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=64efaab8db0050108f67d1b1ca96196d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="COVID-19 getDataStatewise">eae154f4db0010108f67d1b1ca9619db</flow>
+        <order>3.1</order>
+        <parent_ui_id>3a270c0f-97bb-40c7-b22a-cc6fe6787a47</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:06:18</sys_created_on>
+        <sys_id>80d2fafcdb0050108f67d1b1ca96192a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <ui_id>4ce1a75e-3779-4fdc-8eea-0ae292b006eb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=80d2fafcdb0050108f67d1b1ca96192a"/>
+    <sys_element_mapping action="delete_multiple" query="id=80d2fafcdb0050108f67d1b1ca96192a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>80d2fafcdb0050108f67d1b1ca96192a</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:06:18</sys_created_on>
+        <sys_id>48d2fafcdb0050108f67d1b1ca96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{3a270c0f-97bb-40c7-b22a-cc6fe6787a47.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="COVID-19 getDataStatewise">eae154f4db0010108f67d1b1ca9619db</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:30</sys_created_on>
+        <sys_id>e0efaab8db0050108f67d1b1ca96196f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <ui_id>1c24d246-7a99-4a23-8218-701f6a4aa4ef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e0efaab8db0050108f67d1b1ca96196f"/>
+    <sys_element_mapping action="delete_multiple" query="id=e0efaab8db0050108f67d1b1ca96196f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>e0efaab8db0050108f67d1b1ca96196f</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 03:53:30</sys_created_on>
+        <sys_id>a0efaab8db0050108f67d1b1ca961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 03:53:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{bf89a9f6-ee78-4c39-a689-e76f0d9ea500.response}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=eae154f4db0010108f67d1b1ca9619db^sys_idNOT IN7991367cdb0050108f67d1b1ca9619d0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3d91367cdb0050108f67d1b1ca9619cf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="COVID-19 getDataStatewise">eae154f4db0010108f67d1b1ca9619db</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:00:58</sys_created_on>
+        <sys_id>7991367cdb0050108f67d1b1ca9619d0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <ui_id>3a270c0f-97bb-40c7-b22a-cc6fe6787a47</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7991367cdb0050108f67d1b1ca9619d0"/>
+    <sys_element_mapping action="delete_multiple" query="id=7991367cdb0050108f67d1b1ca9619d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>7991367cdb0050108f67d1b1ca9619d0</id>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-06 04:06:18</sys_created_on>
+        <sys_id>84d2fafcdb0050108f67d1b1ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-06 04:06:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{bf89a9f6-ee78-4c39-a689-e76f0d9ea500.states_data}}</value>
+    </sys_element_mapping>
+</record_update>

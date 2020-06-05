@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Active Cases by State">8ca3476ddb4c54108f67d1b1ca96192a</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-04-08 13:15:12</sys_created_on>
+        <sys_id>04a3476ddb4c54108f67d1b1ca96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8ca3476ddb4c54108f67d1b1ca96192a</sys_name>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_report_users_groups_04a3476ddb4c54108f67d1b1ca96192b</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-08 13:15:12</sys_updated_on>
+        <user_id display_value="Sarath P">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+</record_update>

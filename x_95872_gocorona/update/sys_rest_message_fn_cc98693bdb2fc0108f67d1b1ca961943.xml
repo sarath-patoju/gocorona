@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user>sarath.satya7@hotmail.com</basic_auth_user>
+        <content/>
+        <function_name>StatsByCountry</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>COVID-19 [ StatsByCountry ]</qualified_name>
+        <rest_endpoint>https://api.covid19api.com/total/country/${country}/status/${status}</rest_endpoint>
+        <rest_message display_value="COVID-19">bec6693bdb2fc0108f67d1b1ca961936</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>sarath.satya7@hotmail.com</sys_created_by>
+        <sys_created_on>2020-03-21 09:53:22</sys_created_on>
+        <sys_id>cc98693bdb2fc0108f67d1b1ca961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StatsByCountry</sys_name>
+        <sys_package display_value="GoCorona" source="x_95872_gocorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GoCorona">d864a1fbdb67c0108f67d1b1ca9619b0</sys_scope>
+        <sys_update_name>sys_rest_message_fn_cc98693bdb2fc0108f67d1b1ca961943</sys_update_name>
+        <sys_updated_by>sarath.satya7@hotmail.com</sys_updated_by>
+        <sys_updated_on>2020-03-21 09:53:22</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
